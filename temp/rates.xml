@@ -1,0 +1,331 @@
+﻿<?xml version="1.0"?>
+<ROWSET>
+ <ROW>
+  <GOLD>0</GOLD>
+  <NAME_>Наименование</NAME_>
+  <CODE>Код</CODE>
+  <RATIO>За единица валута/злато</RATIO>
+  <REVERSERATE>Обратен курс: за един лев</REVERSERATE>
+  <RATE>Лева (BGN)</RATE>
+  <EXTRAINFO>Забележка: Валутните курсове се определят на основание чл. 12 от Валутния закон и се използват за целите, предвидени по закон.&lt;br /&gt;* Поради ситуацията на международните финансови пазари Българската народна банка (БНБ) не може да определи референтен курс на българския лев към руската рубла, който да е представителен за пазарните условия. Във връзка с това БНБ преустановява временно публикуването на курс на българския лев към руската рубла, докато пазарните условия не се нормализират. Последният курс на българския лев към руската рубла е публикуван на 1 март 2022 г.</EXTRAINFO>
+  <CURR_DATE>Date</CURR_DATE>
+  <TITLE>Курсове на българския лев към отделни чуждестранни валути и цена на златото, валидни за 01.11.2022</TITLE>
+  <F_STAR>0</F_STAR>
+ </ROW>
+ <ROW>
+  <GOLD>1</GOLD>
+  <NAME_>Австралийски долар</NAME_>
+  <CODE>AUD</CODE>
+  <RATIO>1</RATIO>
+  <REVERSERATE>0.787848</REVERSERATE>
+  <RATE>1.26928</RATE>
+  <CURR_DATE>01.11.2022</CURR_DATE>
+  <F_STAR>0</F_STAR>
+ </ROW>
+ <ROW>
+  <GOLD>1</GOLD>
+  <NAME_>Бразилски реал</NAME_>
+  <CODE>BRL</CODE>
+  <RATIO>10</RATIO>
+  <REVERSERATE>2.62482</REVERSERATE>
+  <RATE>3.80979</RATE>
+  <CURR_DATE>01.11.2022</CURR_DATE>
+  <F_STAR>0</F_STAR>
+ </ROW>
+ <ROW>
+  <GOLD>1</GOLD>
+  <NAME_>Канадски долар</NAME_>
+  <CODE>CAD</CODE>
+  <RATIO>1</RATIO>
+  <REVERSERATE>0.688658</REVERSERATE>
+  <RATE>1.4521</RATE>
+  <CURR_DATE>01.11.2022</CURR_DATE>
+  <F_STAR>0</F_STAR>
+ </ROW>
+ <ROW>
+  <GOLD>1</GOLD>
+  <NAME_>Швейцарски франк</NAME_>
+  <CODE>CHF</CODE>
+  <RATIO>1</RATIO>
+  <REVERSERATE>0.505053</REVERSERATE>
+  <RATE>1.97999</RATE>
+  <CURR_DATE>01.11.2022</CURR_DATE>
+  <F_STAR>0</F_STAR>
+ </ROW>
+ <ROW>
+  <GOLD>1</GOLD>
+  <NAME_>Китайски ренминби юан</NAME_>
+  <CODE>CNY</CODE>
+  <RATIO>10</RATIO>
+  <REVERSERATE>3.68974</REVERSERATE>
+  <RATE>2.71022</RATE>
+  <CURR_DATE>01.11.2022</CURR_DATE>
+  <F_STAR>0</F_STAR>
+ </ROW>
+ <ROW>
+  <GOLD>1</GOLD>
+  <NAME_>Чешка крона</NAME_>
+  <CODE>CZK</CODE>
+  <RATIO>100</RATIO>
+  <REVERSERATE>12.5185</REVERSERATE>
+  <RATE>7.9882</RATE>
+  <CURR_DATE>01.11.2022</CURR_DATE>
+  <F_STAR>0</F_STAR>
+ </ROW>
+ <ROW>
+  <GOLD>1</GOLD>
+  <NAME_>Датска крона</NAME_>
+  <CODE>DKK</CODE>
+  <RATIO>10</RATIO>
+  <REVERSERATE>3.80596</REVERSERATE>
+  <RATE>2.62746</RATE>
+  <CURR_DATE>01.11.2022</CURR_DATE>
+  <F_STAR>0</F_STAR>
+ </ROW>
+ <ROW>
+  <GOLD>1</GOLD>
+  <NAME_>Британска лира</NAME_>
+  <CODE>GBP</CODE>
+  <RATIO>1</RATIO>
+  <REVERSERATE>0.440007</REVERSERATE>
+  <RATE>2.27269</RATE>
+  <CURR_DATE>01.11.2022</CURR_DATE>
+  <F_STAR>0</F_STAR>
+ </ROW>
+ <ROW>
+  <GOLD>1</GOLD>
+  <NAME_>Хонконгски  долар</NAME_>
+  <CODE>HKD</CODE>
+  <RATIO>10</RATIO>
+  <REVERSERATE>3.99211</REVERSERATE>
+  <RATE>2.50494</RATE>
+  <CURR_DATE>01.11.2022</CURR_DATE>
+  <F_STAR>0</F_STAR>
+ </ROW>
+ <ROW>
+  <GOLD>1</GOLD>
+  <NAME_>Хърватска куна</NAME_>
+  <CODE>HRK</CODE>
+  <RATIO>10</RATIO>
+  <REVERSERATE>3.85217</REVERSERATE>
+  <RATE>2.59594</RATE>
+  <CURR_DATE>01.11.2022</CURR_DATE>
+  <F_STAR>0</F_STAR>
+ </ROW>
+ <ROW>
+  <GOLD>1</GOLD>
+  <NAME_>Унгарски форинт</NAME_>
+  <CODE>HUF</CODE>
+  <RATIO>1000</RATIO>
+  <REVERSERATE>208.045</REVERSERATE>
+  <RATE>4.80666</RATE>
+  <CURR_DATE>01.11.2022</CURR_DATE>
+  <F_STAR>0</F_STAR>
+ </ROW>
+ <ROW>
+  <GOLD>1</GOLD>
+  <NAME_>Индонезийска рупия</NAME_>
+  <CODE>IDR</CODE>
+  <RATIO>10000</RATIO>
+  <REVERSERATE>7942.69</REVERSERATE>
+  <RATE>1.25902</RATE>
+  <CURR_DATE>01.11.2022</CURR_DATE>
+  <F_STAR>0</F_STAR>
+ </ROW>
+ <ROW>
+  <GOLD>1</GOLD>
+  <NAME_>Израелски шекел</NAME_>
+  <CODE>ILS</CODE>
+  <RATIO>10</RATIO>
+  <REVERSERATE>1.78553</REVERSERATE>
+  <RATE>5.60057</RATE>
+  <CURR_DATE>01.11.2022</CURR_DATE>
+  <F_STAR>0</F_STAR>
+ </ROW>
+ <ROW>
+  <GOLD>1</GOLD>
+  <NAME_>Индийска рупия</NAME_>
+  <CODE>INR</CODE>
+  <RATIO>100</RATIO>
+  <REVERSERATE>41.9688</REVERSERATE>
+  <RATE>2.38272</RATE>
+  <CURR_DATE>01.11.2022</CURR_DATE>
+  <F_STAR>0</F_STAR>
+ </ROW>
+ <ROW>
+  <GOLD>1</GOLD>
+  <NAME_>Исландска крона</NAME_>
+  <CODE>ISK</CODE>
+  <RATIO>100</RATIO>
+  <REVERSERATE>73.2681</REVERSERATE>
+  <RATE>1.36485</RATE>
+  <CURR_DATE>01.11.2022</CURR_DATE>
+  <F_STAR>0</F_STAR>
+ </ROW>
+ <ROW>
+  <GOLD>1</GOLD>
+  <NAME_>Японска йена</NAME_>
+  <CODE>JPY</CODE>
+  <RATIO>100</RATIO>
+  <REVERSERATE>74.8273</REVERSERATE>
+  <RATE>1.33641</RATE>
+  <CURR_DATE>01.11.2022</CURR_DATE>
+  <F_STAR>0</F_STAR>
+ </ROW>
+ <ROW>
+  <GOLD>1</GOLD>
+  <NAME_>Южнокорейски вон</NAME_>
+  <CODE>KRW</CODE>
+  <RATIO>1000</RATIO>
+  <REVERSERATE>718.174</REVERSERATE>
+  <RATE>1.39242</RATE>
+  <CURR_DATE>01.11.2022</CURR_DATE>
+  <F_STAR>0</F_STAR>
+ </ROW>
+ <ROW>
+  <GOLD>1</GOLD>
+  <NAME_>Мексиканско песо</NAME_>
+  <CODE>MXN</CODE>
+  <RATIO>100</RATIO>
+  <REVERSERATE>10.0205</REVERSERATE>
+  <RATE>9.97954</RATE>
+  <CURR_DATE>01.11.2022</CURR_DATE>
+  <F_STAR>0</F_STAR>
+ </ROW>
+ <ROW>
+  <GOLD>1</GOLD>
+  <NAME_>Малайзийски рингит</NAME_>
+  <CODE>MYR</CODE>
+  <RATIO>10</RATIO>
+  <REVERSERATE>2.40916</REVERSERATE>
+  <RATE>4.15083</RATE>
+  <CURR_DATE>01.11.2022</CURR_DATE>
+  <F_STAR>0</F_STAR>
+ </ROW>
+ <ROW>
+  <GOLD>1</GOLD>
+  <NAME_>Норвежка крона</NAME_>
+  <CODE>NOK</CODE>
+  <RATIO>10</RATIO>
+  <REVERSERATE>5.20673</REVERSERATE>
+  <RATE>1.92059</RATE>
+  <CURR_DATE>01.11.2022</CURR_DATE>
+  <F_STAR>0</F_STAR>
+ </ROW>
+ <ROW>
+  <GOLD>1</GOLD>
+  <NAME_>Новозеландски долар</NAME_>
+  <CODE>NZD</CODE>
+  <RATIO>1</RATIO>
+  <REVERSERATE>0.862857</REVERSERATE>
+  <RATE>1.15894</RATE>
+  <CURR_DATE>01.11.2022</CURR_DATE>
+  <F_STAR>0</F_STAR>
+ </ROW>
+ <ROW>
+  <GOLD>1</GOLD>
+  <NAME_>Филипинско песо</NAME_>
+  <CODE>PHP</CODE>
+  <RATIO>100</RATIO>
+  <REVERSERATE>29.5455</REVERSERATE>
+  <RATE>3.38461</RATE>
+  <CURR_DATE>01.11.2022</CURR_DATE>
+  <F_STAR>0</F_STAR>
+ </ROW>
+ <ROW>
+  <GOLD>1</GOLD>
+  <NAME_>Полска злота</NAME_>
+  <CODE>PLN</CODE>
+  <RATIO>10</RATIO>
+  <REVERSERATE>2.40578</REVERSERATE>
+  <RATE>4.15665</RATE>
+  <CURR_DATE>01.11.2022</CURR_DATE>
+  <F_STAR>0</F_STAR>
+ </ROW>
+ <ROW>
+  <GOLD>1</GOLD>
+  <NAME_>Румънска лея</NAME_>
+  <CODE>RON</CODE>
+  <RATIO>10</RATIO>
+  <REVERSERATE>2.51239</REVERSERATE>
+  <RATE>3.98028</RATE>
+  <CURR_DATE>01.11.2022</CURR_DATE>
+  <F_STAR>0</F_STAR>
+ </ROW>
+ <ROW>
+  <GOLD>1</GOLD>
+  <NAME_>Руска рубла *</NAME_>
+  <CODE>RUB</CODE>
+  <CURR_DATE>01.11.2022</CURR_DATE>
+  <F_STAR>1</F_STAR>
+ </ROW>
+ <ROW>
+  <GOLD>1</GOLD>
+  <NAME_>Шведска крона</NAME_>
+  <CODE>SEK</CODE>
+  <RATIO>10</RATIO>
+  <REVERSERATE>5.55979</REVERSERATE>
+  <RATE>1.79863</RATE>
+  <CURR_DATE>01.11.2022</CURR_DATE>
+  <F_STAR>0</F_STAR>
+ </ROW>
+ <ROW>
+  <GOLD>1</GOLD>
+  <NAME_>Сингапурски долар</NAME_>
+  <CODE>SGD</CODE>
+  <RATIO>1</RATIO>
+  <REVERSERATE>0.716676</REVERSERATE>
+  <RATE>1.39533</RATE>
+  <CURR_DATE>01.11.2022</CURR_DATE>
+  <F_STAR>0</F_STAR>
+ </ROW>
+ <ROW>
+  <GOLD>1</GOLD>
+  <NAME_>Тайландски бат</NAME_>
+  <CODE>THB</CODE>
+  <RATIO>100</RATIO>
+  <REVERSERATE>19.1479</REVERSERATE>
+  <RATE>5.22251</RATE>
+  <CURR_DATE>01.11.2022</CURR_DATE>
+  <F_STAR>0</F_STAR>
+ </ROW>
+ <ROW>
+  <GOLD>1</GOLD>
+  <NAME_>Турска лира</NAME_>
+  <CODE>TRY</CODE>
+  <RATIO>10</RATIO>
+  <REVERSERATE>9.46997</REVERSERATE>
+  <RATE>1.05597</RATE>
+  <CURR_DATE>01.11.2022</CURR_DATE>
+  <F_STAR>0</F_STAR>
+ </ROW>
+ <ROW>
+  <GOLD>1</GOLD>
+  <NAME_>Щатски долар</NAME_>
+  <CODE>USD</CODE>
+  <RATIO>1</RATIO>
+  <REVERSERATE>0.508582</REVERSERATE>
+  <RATE>1.96625</RATE>
+  <CURR_DATE>01.11.2022</CURR_DATE>
+  <F_STAR>0</F_STAR>
+ </ROW>
+ <ROW>
+  <GOLD>1</GOLD>
+  <NAME_>Южноафрикански ранд</NAME_>
+  <CODE>ZAR</CODE>
+  <RATIO>10</RATIO>
+  <REVERSERATE>9.19312</REVERSERATE>
+  <RATE>1.08777</RATE>
+  <CURR_DATE>01.11.2022</CURR_DATE>
+  <F_STAR>0</F_STAR>
+ </ROW>
+ <ROW>
+  <GOLD>2</GOLD>
+  <NAME_>Злато (в трой унции)</NAME_>
+  <CODE>XAU</CODE>
+  <RATIO>1</RATIO>
+  <RATE>3259.98</RATE>
+  <CURR_DATE>01.11.2022</CURR_DATE>
+  <F_STAR>0</F_STAR>
+ </ROW>
+</ROWSET>
