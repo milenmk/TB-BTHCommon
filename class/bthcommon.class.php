@@ -97,7 +97,35 @@ class bthcommon extends CommonObject
 				}
 			}
 
-			return $end_normal .' - '. $end_error;
+			return $end_normal . ' - ' . $end_error;
+		}
+	}
+
+	/**
+	 * @return int|void
+	 */
+	public function getCustomerCategories()
+	{
+
+		$sql = "SELECT DISTINCT c.rowid, c.label, c.ref_ext, c.description, c.color, c.fk_parent, c.visible"; // Distinct reduce pb with old tables with duplicates
+		$sql .= " FROM " . MAIN_DB_PREFIX . "categorie as c";
+		$sql .= " WHERE c.entity IN (" . getEntity('category') . ")";
+		$sql .= " AND c.type = 2";
+		$sql .= " AND c.rowid != 83";
+		$resql = $this->db->query($sql);
+		if ($resql) {
+			$i = 0;
+			while ($obj = $this->db->fetch_object($resql)) {
+				$this->cats[$obj->rowid]['id'] = $obj->rowid;
+				$this->cats[$obj->rowid]['label'] = !empty($obj->label_trans) ? $obj->label_trans : $obj->label;
+				$i++;
+			}
+
+			return $this->cats;
+		} else {
+			dol_print_error($this->db);
+
+			return -1;
 		}
 	}
 
