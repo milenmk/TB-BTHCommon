@@ -40,8 +40,10 @@ BTHCommonAboutPage = BTHCommon about page
 #
 # General
 #
+## borjatechoffer.php
 ProductfilterList=Продуктов филтър
 Package=Пакет
 NewLeadbyWebModif=Съобщението е изпратено. Ще се свържем с Вас в най-кратък срок.
 CustomersCategorie=Вие сте:
 OnlineFormPackageRequest=Запитване за пакет покривна система
+## borjajetoffer.php
