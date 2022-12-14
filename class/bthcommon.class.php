@@ -15,6 +15,7 @@ dol_include_once('/core/class/commonobject.class.php');
  */
 class bthcommon extends CommonObject
 {
+
 	/**
 	 * @var string ID of module.
 	 */
@@ -38,6 +39,7 @@ class bthcommon extends CommonObject
 	 */
 	public function __construct(DoliDB $db)
 	{
+
 		global $conf, $langs;
 
 		$this->db = $db;
@@ -48,7 +50,8 @@ class bthcommon extends CommonObject
 	 *
 	 * @return string
 	 */
-	function update_currency_rate_from_url($url){
+	public function update_currency_rate_from_url($url)
+	{
 
 		global $user;
 
@@ -61,13 +64,13 @@ class bthcommon extends CommonObject
 		if ($contents) {
 			$path = DOL_DOCUMENT_ROOT . '/custom/bthcommon/temp';
 			$name = 'rates.xml';
-			file_put_contents($path .'/'. $name, $contents);
+			file_put_contents($path . '/' . $name, $contents);
 
-			$file = simpleXML_load_file($path .'/'. $name,"SimpleXMLElement",LIBXML_NOCDATA);
+			$file = simpleXML_load_file($path . '/' . $name, 'SimpleXMLElement', LIBXML_NOCDATA);
 
 			$obj = [];
 
-			$sql = 'SELECT rowid as id, code FROM '.MAIN_DB_PREFIX.'multicurrency WHERE code != "EUR"';
+			$sql = 'SELECT rowid as id, code FROM ' . MAIN_DB_PREFIX . 'multicurrency WHERE code != "EUR"';
 			$resql = $this->db->query($sql);
 
 			if ($resql) {
@@ -77,27 +80,32 @@ class bthcommon extends CommonObject
 			}
 
 			$end_normal = 0;
-			$end_error = 0;
+			$end_error = -10;
 
 			foreach ($obj as $currency) {
 				foreach ($file as $rate) {
-					if ($rate->CODE == $currency->code && $rate->CODE != "EUR") {
+					if ($rate->CODE == $currency->code && $rate->CODE != 'EUR') {
 						dol_include_once('/multicurrency/class/multicurrency.class.php');
 						$currency_rate = new CurrencyRate($this->db);
 						$currency_rate->date_sync = dol_now();
 						$currency_rate->rate = $rate->REVERSERATE;
 						$currency_rate->entity = 1;
-						//$result = $currency_rate->create($currency->id);
-						if ($currency_rate->create($currency->id) > 0) {
+						$result = $currency_rate->create($currency->id);
+						if ($result > 0) {
 							$end_normal += 1;
 						} else {
-							$end_error += 1;
+							$end_error -= 1;
 						}
 					}
 				}
 			}
 
-			return $end_normal . ' - ' . $end_error;
+			if ($end_normal > 0) {
+				return $end_normal;
+			} else {
+				return $end_error;
+			}
+			//return $end_normal . ' - ' . $end_error;
 		}
 	}
 
@@ -107,11 +115,11 @@ class bthcommon extends CommonObject
 	public function getCustomerCategories()
 	{
 
-		$sql = "SELECT DISTINCT c.rowid, c.label, c.ref_ext, c.description, c.color, c.fk_parent, c.visible"; // Distinct reduce pb with old tables with duplicates
-		$sql .= " FROM " . MAIN_DB_PREFIX . "categorie as c";
-		$sql .= " WHERE c.entity IN (" . getEntity('category') . ")";
-		$sql .= " AND c.type = 2";
-		$sql .= " AND c.rowid != 83";
+		$sql = 'SELECT DISTINCT c.rowid, c.label, c.ref_ext, c.description, c.color, c.fk_parent, c.visible'; // Distinct reduce pb with old tables with duplicates
+		$sql .= ' FROM ' . MAIN_DB_PREFIX . 'categorie as c';
+		$sql .= ' WHERE c.entity IN (' . getEntity('category') . ')';
+		$sql .= ' AND c.type = 2';
+		$sql .= ' AND c.rowid != 83';
 		$resql = $this->db->query($sql);
 		if ($resql) {
 			$i = 0;
