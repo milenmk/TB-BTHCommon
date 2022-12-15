@@ -117,9 +117,10 @@ class bthcommon extends CommonObject
 
 		$sql = 'SELECT DISTINCT c.rowid, c.label, c.ref_ext, c.description, c.color, c.fk_parent, c.visible'; // Distinct reduce pb with old tables with duplicates
 		$sql .= ' FROM ' . MAIN_DB_PREFIX . 'categorie as c';
+		$sql .= ' INNER JOIN ' . MAIN_DB_PREFIX . 'categories_extrafields ce ON ce.fk_object = c.rowid';
 		$sql .= ' WHERE c.entity IN (' . getEntity('category') . ')';
 		$sql .= ' AND c.type = 2';
-		$sql .= ' AND c.rowid != 83';
+		$sql .= ' AND ce.leadpages = 1';
 		$resql = $this->db->query($sql);
 		if ($resql) {
 			$i = 0;
